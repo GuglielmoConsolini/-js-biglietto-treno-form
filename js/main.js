@@ -32,7 +32,11 @@ Button.addEventListener("click" , function(){
 
     console.log(prezzoScontato);
 
+    let n = prezzoScontato.toFixed(2);
 
+    console.log("prezzo arrotondato", n);
+
+    document.getElementById("prezzo").innerText = n + "£";
 
 
 

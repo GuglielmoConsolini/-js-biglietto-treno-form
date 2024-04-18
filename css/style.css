@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ticket{
+    background-image: url(https://img.freepik.com/premium-photo/train-snow-with-mountain-background_662214-162605.jpg);
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 600px;
+    border-radius: 20px;
+    margin: 0 auto;
+    color: white;
+    border: solid 3px white;
+}
+
+.text-container{
+    text-align: center;
+    margin-bottom: 5rem;
+
+}
+
+h1{
+    padding-bottom: 3rem;
+}
+
+.row{
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+span{
+    background-color: white;
+    color: navy;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+body{
+    background-image: url(https://www.creativefabrica.com/wp-content/uploads/2022/11/28/Abstract-Snow-Background-49138656-1.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+label{
+    font-size: 25px;
+    color: black;
+}

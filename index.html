@@ -3,26 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
     <title>JS Biglietto treno form</title>
 </head>
 <body>
 
- <h1>Calcola il tuo bliglietto</h1>
+   <div class="text-container">
+    <h1>Calcola il tuo bliglietto</h1>
 
- <label for="age-input">
-    Età
- </label>
- <input id="age-input" name="age" type="number" placeholder="Inserisci la tua età..">
+    <label for="age-input">
+      Età
+    </label>
+   <input id="age-input" name="age" type="number" placeholder="Inserisci la tua età..">
 
- <label for="km-input">
-    Kilometri
- </label>
- <input id="km-input" name="km" type="number" placeholder="Inserisci i Kilometri da percorrere...">
+   <label for="km-input">
+   Kilometri
+   </label>
+    <input id="km-input" name="km" type="number" placeholder="Inserisci i Kilometri....">
 
- <button id="calc-price">
-    Calcola prezzo
- </button>
+     <button id="calc-price">
+        Calcola prezzo
+     </button>
+    </div>
 
+   <div class="ticket">
+
+    <div class="row">
+        <span>Il Prezzo del biglietto è</span>
+        <span id="prezzo"></span>
+    </div>
+    
+   </div>
 
 
 
